@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="h-screen bg-bg flex flex-col justify-between items-center p-4">
       <NavBar />
-      {/* <Body /> */}
+      <Body />
       {/* <Footer/> */}
     </div>
   );

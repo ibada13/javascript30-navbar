@@ -5,8 +5,8 @@ import DropDownItem from './lib/ui/DropDownItem';
 import { Navitems } from './lib/data';
 export default function NavBar() { 
     return (
-        <div className="h-1/6 w-4/5 flex justify-between gap-x-12 bg-red-500 text-text">
-            <div className="flex-grow flex items-center ">
+        <div className="h-1/6 w-4/5 flex justify-between gap-x-12 text-text">
+            <div className=" flex items-center ">
                 <Image src={ Logo} alt="logo"/>
             </div>
             <div className="flex-grow flex justify-between items-center ">
@@ -16,7 +16,7 @@ export default function NavBar() {
                 ))}
 
             </div>
-            <div className="flex-grow flex justify-end gap-x-4 items-center bg-blue-500">
+            <div className=" flex justify-end gap-x-4 items-center text-xs">
                 <p>Sign in </p>
                 <Button /> 
             </div>
