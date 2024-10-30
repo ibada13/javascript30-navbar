@@ -14,7 +14,8 @@ const config: Config = {
         bg: "#f3ede5",
         sbk: "#28253a",
         text: "#8b8988",
-        NavText :"#18334a",
+        navtext: "#18334a",
+        iconColor:"#88aed0"
       },
     },
   },
